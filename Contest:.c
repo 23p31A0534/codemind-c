@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
-    if(b*1+c*2>=a)
+    int X,Y,Z;
+    scanf("%d%d%d",&X,&Y,&Z);
+    if(Y*1+Z*2>=X)
     {
-        printf("Qualify
-");
+        printf("Qualify");
     }
-    else 
+    else
     {
         printf("Not Qualify");
     }
