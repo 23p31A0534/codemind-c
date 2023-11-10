@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,temp,sum=0,i;
+    int i,n,temp,sum=0;
     scanf("%d",&n);
     for(i=1;i<n;i++)
     {
@@ -9,13 +9,14 @@ int main()
         {
             sum=sum+i;
         }
-        
     }
-    if(n<sum)
-    {
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+        if(n<sum)
+        {
+            printf("True");
+        }
+        else
+        {
+            printf("False");
+        }
+    
 }
