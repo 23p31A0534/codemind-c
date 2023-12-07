@@ -1,8 +1,15 @@
 #include<stdio.h>
+int add(int,int);
 int main()
 {
-    int a,b,c;
+    int a,b;
     scanf("%d%d",&a,&b);
-    c=a+b;
-    printf("%d",c);
+    int res=add( a, b);
+    printf("%d",res);
+}
+int add(int a,int b)
+{
+    int c;
+     c=a+b;
+    return c;
 }
